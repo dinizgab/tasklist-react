@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+
+  font-family: 'Poppins';
+  font-size: 62.5% /* 10px */
+}
+
+body {
+  background-color: #EEE5E9;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.TaskForm {
+  border-radius: .75rem;
+
+  width: 30rem;
+  padding: 1.5rem;
+
+  background-color: #FBFAF8;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #011936;
+}
+
+.input {
+  width: 100%;
+  height: 3rem;
+  padding: 1rem;
+  margin-top: .75rem;
+
+  background-color: #FBFAF8;
+  color: #011936;
+
+  font-size: 1.5rem;
+  border-radius: .75rem;
+  border: 2px #011936 solid;
+}
+
+.input::placeholder {
+  font-size: 1.5rem;
+}
+
+.input:focus {
+  border-color: #193E6C;
+}
+
+.register {
+  margin-top: .75rem;
+  width: 100%;
+  height: 3rem;
+
+  font-size: 1.5rem;
+  
+  color: #EEE5E9;
+  background-color: #011936;
+
+  border-radius: .75rem;
+}
+
+.register:hover {
+  cursor: pointer;
+  background-color: #193E6C;
+}
+
+.description {
+  font-size: 1.5rem;
+  font-weight: medium;
+
+  margin-top: 1rem;
+
+  color: #193E6C;
+}
+
+ul {
+  margin-top: .75rem;
+  color: #011936;
+
+  list-style-type: disc;
+  list-style-position: inside;
+  text-align: left;
+}
+
+li {
+  font-size: 1.75rem;
+}
